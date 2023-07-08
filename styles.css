@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+:root {
+	--main-color: skyblue;
+}
+
+body {
+	background-color: var(--main-color);
+}
+
+li:nth-child(odd){
+	background-color: pink;
+}
+
+.items li:first-child{
+	background-color: white;
+}
+
+.items li:last-child{
+	background-color: white;
+}
+
+li:nth-child(even) {
+	background-color: slategray;
+}
+
+div p:first-child{
+	background-color: black;
+	color: white;
+}
+
+div p:last-child {
+	color: red;
+}
